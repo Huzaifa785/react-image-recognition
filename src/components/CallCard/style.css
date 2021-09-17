@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    color: #172B4D;
+}
+
+body{
+    background: #172B4D;
+}
+
+.html-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+.html-card{
+    background: white;
+    width: 420px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.unlock-buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    place-content: center;
+    margin-top: 315px;
+}
+
+.btn{
+    width: 200px;
+    background: transparent;
+    border-style: none;
+    outline: none;
+    border: 0.2px solid rgb(2, 6, 63);
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-text{
+    margin-top: 10px;
+}
+
+.street-add{
+    color: #172B4D;
+}
+
+.search-box{
+    width: 100%;
+    font-size: 15px;
+    padding: 3px 7px;
+    border-radius: 7px;
+    outline: none;
+    border-style: double;
+    color: #172B4D;
+}
+
+.unit-row{
+    display: flex;
+    justify-content: space-between;
+    background: #172B4D;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.unit-video-call{
+    padding-top: 10px;
+}
+
+.video-call-icon{
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 475px) {
+    .card{
+        width: 300px;
+    }
+    .video-screen{
+        width: 305px !important;
+        height: 250px !important;
+    }
+    .face-canvas{
+        width: 350px !important;
+        height: 230px !important;
+    }
+    .btn{
+        width: 150px;
+    }
+    .street-add{
+        font-size: 22px;
+        color: #172B4D;
+    }
+    .full-add{
+        font-size: 11px;
+    }
+    .unlock-buttons{
+        margin-top: 270px;
+    }
+}
